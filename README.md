@@ -6,7 +6,11 @@
 
 ## Brief Architecture
 ![image](https://github.com/ZongWeiLin/Mini_scope_base_on_Free_RTOS/blob/main/flow_chart.png)
-*OS callback
-   *用於進行電壓(ADC)採樣。
-   *傳輸採樣電壓資訊。
-   *在FFT運算需要的資料夠時，釋放Semaphore與FFT運算的任務進行同步。
+* OS callback
+   * 用於進行電壓(ADC)採樣。
+   * 傳輸採樣電壓資訊。
+   * 在FFT運算需要的資料夠時，釋放Semaphore與FFT運算的任務進行同步。
+* Scope Task
+  * 確認停止鈕以及FFT顯示紐的狀態，決定是否要傳輸資料至顯示屏。
+  * 傳輸量測到的資料至顯示屏。
+    *  Note : 在資料傳輸時，會透過Mutex對UART進行管理，以免當前任務傳輸的資料被其他任務給蓋掉。
