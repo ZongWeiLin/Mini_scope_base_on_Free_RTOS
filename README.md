@@ -37,3 +37,5 @@
   * FATFS:File Allocation Table File System 的source code
   * FreeRTOS : FreeRTOS 的source code
 * Mini_scope_base_on_Free_RTOS.ioc:開發板的腳位、時脈設定
+## Note
+[Notion](https://complete-filament-cc6.notion.site/Mini-scope-based-on-Free-RTOS-8922522a14114b2b8b02346fb9b7c537 "link")
