@@ -7,6 +7,6 @@
 ## Brief Architecture
 ![image](https://github.com/ZongWeiLin/Mini_scope_base_on_Free_RTOS/blob/main/flow_chart.png)
 * OS callback
-  * 用於進行電壓(ADC)採樣。
-  * 傳輸採樣電壓資訊。
-  * 在FFT運算需要的資料夠時，釋放Semaphore與FFT運算的任務進行同步。
+ * 用於進行電壓(ADC)採樣。
+ * 傳輸採樣電壓資訊。
+ * 在FFT運算需要的資料夠時，釋放Semaphore與FFT運算的任務進行同步。
