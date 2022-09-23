@@ -28,7 +28,9 @@
 * Core/Src
   * main.c:主程式，RTOS的所有任務皆寫在此。
   * stm32f4xx_it.c:設定Interrupt Handler
-* Driver:ST官方提供的Hal函式庫
+* Driver:ST官方提供之Hal函式庫
+* DSP:ST官方提供之DSP函式庫
+* fft:fft函式head檔及source code
 * FATFS/Target
   * user_diskio.c:需將SD_SPI_FATFS.c完成的檔案操作底層IO API移植進此檔案
 * Middlewares/Third_Party
