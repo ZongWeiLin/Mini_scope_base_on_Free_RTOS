@@ -24,3 +24,14 @@
 * SD Task
   * 確認是否有無要儲存資料。
   * 透過Queue接收要儲存進SD卡的資料。
+## Files
+* Core/Src
+  * main.c:主程式，RTOS的所有任務皆寫在此。
+  * stm32f4xx_it.c:設定Interrupt Handler
+* Driver:ST官方提供的Hal函式庫
+* FATFS/Target
+  * user_diskio.c:需將SD_SPI_FATFS.c完成的檔案操作底層IO API移植進此檔案
+* Middlewares/Third_Party
+  * FATFS:File Allocation Table File System 的source code
+  * FreeRTOS : FreeRTOS 的source code
+* Mini_scope_base_on_Free_RTOS.ioc:開發板的腳位、時脈設定
