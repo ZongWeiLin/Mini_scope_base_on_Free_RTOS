@@ -27,17 +27,17 @@
 ## Files
 * Core/Src
   * main.c:主程式，RTOS的所有任務皆寫在此。
-  * stm32f4xx_it.c:設定Interrupt Handler
-* Driver:ST官方提供之Hal函式庫
-* DSP:ST官方提供之DSP函式庫
-* fft:fft函式head檔及source code
+  * stm32f4xx_it.c:設定Interrupt Handler。
+* Driver:ST官方提供之Hal函式庫。
+* DSP:ST官方提供之DSP函式庫。
+* fft:fft函式head檔及source code。
 * Nextion:人機介面設置檔案，可以透過Nextion編譯器將其燒錄至人機介面當中。
 * FATFS/Target
   * user_diskio.c:需將SD_SPI_FATFS.c完成的檔案操作底層IO API移植進此檔案
 * Middlewares/Third_Party
-  * FATFS:File Allocation Table File System 的source code
-  * FreeRTOS : FreeRTOS 的source code
-* Mini_scope_base_on_Free_RTOS.ioc:開發板的腳位、時脈設定
+  * FATFS:File Allocation Table File System 的source code。
+  * FreeRTOS : FreeRTOS 的source code。
+* Mini_scope_base_on_Free_RTOS.ioc:開發板的腳位、時脈設定。
 ## Note
 [Notion](https://complete-filament-cc6.notion.site/Mini-scope-based-on-Free-RTOS-8922522a14114b2b8b02346fb9b7c537 "link")
 
