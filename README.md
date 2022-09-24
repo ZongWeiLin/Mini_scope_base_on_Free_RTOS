@@ -33,7 +33,7 @@
 * fft:fft函式head檔及source code。
 * Nextion:人機介面設置檔案，可以透過Nextion編譯器將其燒錄至人機介面當中。
 * FATFS/Target
-  * user_diskio.c:需將SD_SPI_FATFS.c完成的檔案操作底層IO API移植進此檔案
+  * user_diskio.c:需將SD_SPI_FATFS.c完成的檔案操作底層IO API移植進此檔案。
 * Middlewares/Third_Party
   * FATFS:File Allocation Table File System 的source code。
   * FreeRTOS : FreeRTOS 的source code。
